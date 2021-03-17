@@ -15,11 +15,10 @@ body {
 border-radius:0;
     margin: 0 auto auto 9px 0;
     float: left;
-  transition-duration: 0.3s;
+  transition-duration: 0.25s;
 }
 .task:hover{
   box-shadow: 3px 3px 3px black;
-
   border-radius: 5px 0% 0% 5px;
   width: 87%;
   border-left:20px solid greenyellow;
@@ -45,9 +44,9 @@ display: none;
     margin-bottom: 10px;
   }
   .deleteButton:hover{
-    box-shadow: 3px 3px 3px black;
-    background: red;
-    color: black;
+    box-shadow: 3px 3px 3px rgba(76, 255, 6, 0.986);
+    background: rgba(255, 0, 0, 0);
+    color: rgba(76, 255, 6, 0.986);
   }
 
 .inputTask{
@@ -106,11 +105,11 @@ font-size: 15px;
   }
   .task{
     width: 90%;
-    border-radius: 0%;
+    border-radius: 0;
   }
   .task:hover{
     box-shadow: 3px 3px 3px greenyellow;
-    border-radius: 5px 0% 0% 5px;
+    border-radius: 0;
     width: 90%;
     border :0;
   }
@@ -119,8 +118,13 @@ font-size: 15px;
     border-radius: 0;
   }
   .deleteButton{
-    width: 48px;
+    width: 10%;
+    color: rgb(0, 128, 0);
     border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .deleteButton:hover{
+    width: 10%;
   }
   .inputTask{
     width: 98%;
@@ -128,8 +132,8 @@ font-size: 15px;
   .about{
     display: block;
     border-radius: 50%;
-    background-color: black;
-    color: green;
+    background-color: rgba(255, 0, 0, 0.301);
+    color: white;
     position: absolute;
     top: -12px;
     width: 20px;
