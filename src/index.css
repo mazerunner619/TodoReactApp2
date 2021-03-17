@@ -4,7 +4,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: luminosity;
-  width:600px;
   margin: 0 auto;
 }
 
@@ -20,8 +19,6 @@ border-radius:0;
 .task:hover{
   box-shadow: 3px 3px 3px black;
   border-radius: 5px 0% 0% 5px;
-  width: 87%;
-  border-left:20px solid greenyellow;
 }
 
 .taskLabel{
@@ -99,18 +96,18 @@ font-size: 15px;
 .banner{ly: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  margin-left: 10px;
 }
 
-@media screen and (max-width : 600px){
+@media screen and (max-width : 450px){
   body{
       width : 100%;
   }
   .task{
-    width: 89%;
+    width: 90%;
     border-radius: 0;
   }
   .task:hover{
     box-shadow: 3px 3px 3px greenyellow;
     border-radius: 0;
-    width: 89%;
+    width: 90%;
     border :0;
   }
   .inputTask{
@@ -118,13 +115,13 @@ font-size: 15px;
     border-radius: 0;
   }
   .deleteButton{
-    width: 9%;
+    width: 10%;
     color: rgb(0, 128, 0);
     border-radius: 0;
     background-color: rgba(255, 255, 255, 0);
   }
   .deleteButton:hover{
-    width: 9%;
+    width: 10%;
   }
   .inputTask{
     width: 98%;
