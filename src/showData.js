@@ -17,5 +17,6 @@ export default function Data(props){
         <button className = "deleteButton" onClick = {()=> props.delete(props.user)} >X</button>
          </div>
     )
+    
 }
 
